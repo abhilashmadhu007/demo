@@ -40,6 +40,8 @@ def readProduct(request):
     products = Product.objects.all()
     serializer = ProductSerializer(products, many=True)
     return JsonResponse(serializer.data, safe=False)
+
+
     
 
 
