@@ -24,5 +24,6 @@ urlpatterns = [
     path('updateProduct/<int:pk>/',views.updateProduct, name='updateProduct'),  
     path('deleteProduct/<int:pk>/',views.deleteProduct, name='deleteProduct'),
     
+    
          
 ]
